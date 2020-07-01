@@ -1,0 +1,293 @@
+/*
+	===== Autthor Info =====
+
+	Name : Md.Ariful Islam 
+	Learner at Programming Hero
+	
+*/
+
+
+
+/*
+	===== Index =====
+	01.	Global CSS
+	02.	Header Section CSS
+	03.	Home Section CSS
+	04.	Biography Section CSS
+	05.	Work Section CSS
+	06.	Client Section
+	07.	Contact Section CSS
+	
+*/
+
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*Global CSS Start*/
+body{
+	font-family: 'Playfair Display', serif;
+}
+h1{
+	font-size: 50px;
+}
+h2{
+	font-size: 40px;
+}
+h4{
+	font-size: 25px;
+}
+p{
+	font-size: 20px;
+	color: grey;
+}
+.btn-top{
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	background: orange;
+	color: #000;
+}
+.btn-modify{
+    background: #EC4C79;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: 0.5s linear;
+}
+.btn-modify:hover{
+	 background: black;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+/*Global CSS End*/
+
+/*Header Part Start*/
+header{
+	background-color: #23B9B7;
+	height: 80px;
+}
+
+.logo{
+	width: 50%;
+	float: left;
+	padding-top: 15px;
+}
+.menu-bar{
+	width: 50%;
+	float: left;
+	padding-top: 22px;
+}
+nav ul li{
+	list-style: none;
+	display: inline;
+	margin: 0px 17px;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	transition: 0.5s linear;
+}
+nav ul li a:hover{
+	color: #000;
+}
+
+/*Header Part End*/
+
+/*Home Section Start*/
+section{
+	padding: 40px 0px;
+}
+.home{
+    background: url(../img/header-bg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+.home .left-part{
+    width: 50%;
+    float: left;
+}
+.home .left-part h1{}
+.home .left-part .modify-color{
+	color: #EC4C79;
+    font-weight: 900;
+}
+.home .left-part p{
+    font-weight: 500;
+    padding: 50px 0px;
+}
+
+.home .right-part{
+    width: 50%;
+    float: left;
+}
+.home .right-part img{
+    width: 120%;
+    margin-left: 30px;
+    margin-top: -60px;
+}
+
+/*Home Section End*/
+
+/*Bio Section Start*/
+
+.bio{
+	background: url(../img/biography-bg.png) no-repeat;
+	background-size: 100% 100%;
+	height: 600px;
+
+}
+.bio .left-part{
+	width: 50%;
+    float: left;
+}
+.bio .left-part img{
+	width: 100%;
+}
+.bio .right-part{
+	width: 50%;
+    float: left;
+    padding-top: 30px;
+}
+.bio .right-part h2{
+	font-weight: 700;
+	padding: 20px 0px
+}
+.bio .right-part p{
+	padding: 50px 0px;
+}
+
+
+/*Bio Section End*/
+
+/*My Latest Work Start*/
+
+.work{
+	background: url(../img/latest-work-bg.png) no-repeat;
+	background-size: 100% 100%;
+	height: 500px;
+}
+.work h2{
+	text-align: center;
+	padding-bottom: 80px;
+}
+.work .work-part{
+	width: 30%;
+	float: left;
+	margin: 0px 19px;
+}
+
+.work .work-part img{
+	width: 100%;
+}
+
+
+
+/*My Latest Work End*/
+
+/*Client Section Start*/
+
+.client{
+	background: url(../img/footer-bg.png) no-repeat;
+	background-size: 100% 100%;
+	height: 700px;
+	text-align: center;
+}
+.client h2{
+	padding-bottom: 50px;
+}
+.client h4{
+	padding-bottom: 5px;
+}
+.client p{
+	margin-bottom: 40px;
+    padding: 0% 20%;
+}
+.client span{
+	color: #23B9B7;
+	font-weight: 700;
+}
+.email{
+	background: #EC4C79;
+	height: 200px;
+	margin: 5% 15%;
+
+}
+.client .email h4{
+	color: white;
+	font-size: 30px;
+}
+.client .email p{
+	color: white;
+	margin: 0px;
+	padding-bottom: 10px;
+	padding-top: 50px;
+}
+/*Client Section End*/
+
+/*Contact Section Start*/
+
+.contact{
+	height: 550px;
+	text-align: center;
+}
+.form-section{
+	width: 60%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-top: 65px;
+}
+.input-control{
+	width: 100%;
+	padding: 15px 20px;
+	margin: 10px 0px;
+	border: 1px solid black;
+	font-style: italic;
+}
+.btn-submit{	
+	width: 106%;
+    color: white;
+    font-size: 25px;
+    padding: 15px 20px;
+    background: #FB414E;
+    font-weight: 400;
+    margin-bottom: 50px;
+    transition: 0.5s linear;
+}
+.btn-submit:hover{
+	background: black;
+}
+
+/*Contact Section End*/
+
+/*Footer Section Start*/
+footer{
+	background: #232B2D;
+	height: 80px;
+}
+footer p{
+	text-align: center;
+	color: white;
+	padding-top: 25px;
+}
+/*Footer Section End*/
+
+
+
+
+
+
+
